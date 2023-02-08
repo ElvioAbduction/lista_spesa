@@ -1,0 +1,79 @@
+body{
+	/*background-color: lightcoral;*/
+	background-image: url(https://thumbs.dreamstime.com/b/supermarket-seamless-pattern-food-stickers-grocery-illustration-flat-style-182629828.jpg);
+	font-family: arial;
+	margin:0px;
+}
+
+h1{
+	text-align: center;
+	background-color: brown;
+	color: whitesmoke;
+	padding: 10px;
+	margin:0px;
+	box-shadow: 3px 3px 2px black;
+}
+
+#input1{
+	margin:20px;
+	border-radius: 10px;
+	scale: 120%;
+}
+
+.inputzone{
+	text-align: center;
+	background-color: rgba(191,105,0,0.8);
+	border-radius: 20px;
+	margin:15px;
+	padding: 5px;
+	box-shadow: 3px 3px 4px black;
+}
+
+.done{
+	text-decoration: line-through;
+	text-decoration-color: brown;
+	text-decoration-thickness: 3px;
+	
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 20px;
+	background-color: rgba(191,105,0,0.8);
+	border-radius: 20px;
+	margin:15px;
+	padding: 10px;
+	box-shadow: 3px 3px 4px black;
+}
+
+.listItem{
+	font-weight:bold;
+	font-size: 120%;
+	cursor: pointer;
+}
+
+li{
+	margin: 10px;
+	list-style: none;
+	padding: 20px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 3px 3px 2px black;
+	transition: all 0.3s;
+}
+
+li:hover{
+	transform: scale(1.1);
+}
+
+.delete{
+	margin: 5px;
+	padding: 5px;
+	border-radius: 10px;
+	color: whitesmoke;
+	background-color: brown;
+	border-color: brown;
+	cursor: pointer;
+
+}
