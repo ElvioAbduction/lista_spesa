@@ -38,7 +38,8 @@ h1{
 
 .container{
 	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;
+	/*grid-template-columns: 1fr 1fr 1fr;*/
+	grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
 	grid-gap: 20px;
 	background-color: rgba(191,105,0,0.8);
 	border-radius: 20px;
@@ -75,5 +76,4 @@ li:hover{
 	background-color: brown;
 	border-color: brown;
 	cursor: pointer;
-
 }
